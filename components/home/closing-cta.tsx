@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { AppStoreBadge } from '@/components/app-store-badge'
+import { GooglePlayBadge } from '@/components/google-play-badge'
 import { ButtonLink } from '@/components/button-link'
 import { Reveal } from '@/components/reveal'
 
@@ -19,7 +20,7 @@ export function ClosingCta() {
           <Reveal>
             <p className="inline-flex items-center gap-2 rounded-full border border-ivory/20 bg-ivory/10 px-4 py-1.5 text-xs font-medium tracking-[0.2em] uppercase backdrop-blur-md">
               <span aria-hidden className="animate-pulse-ring size-1.5 rounded-full bg-gold" />
-              Coming soon to iPhone
+              iPhone &amp; Android · Coming soon
             </p>
             <h2
               id="cta-title"
@@ -39,8 +40,9 @@ export function ClosingCta() {
                 Read the FAQ
               </ButtonLink>
             </div>
-            <div className="mt-10 flex justify-center">
+            <div className="mt-10 flex flex-wrap justify-center gap-3">
               <AppStoreBadge tone="dark" />
+              <GooglePlayBadge tone="dark" />
             </div>
           </Reveal>
         </div>

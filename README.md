@@ -38,3 +38,7 @@ Intended: https://edut.timurhasanov.com — not yet verified or deployed.
 ## AWS + Jira Cloud planning
 
 See [AWS architecture and Jira Cloud backlog](docs/AWS_JIRA_ROADMAP.md). These are planning resources, **not** a claim of live AWS infrastructure or an active Jira Cloud board.
+
+### EduT product team Jira workflow
+
+See [EduT Jira Cloud delivery workflow](docs/EDUT_JIRA_WORKFLOW.md) for proposed issue types, board stages and coordination across two developers and one marketing specialist. This is a workflow specification, not a connected Jira project.

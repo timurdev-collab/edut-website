@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { ArrowUp, Mail } from 'lucide-react'
 import { Logo } from '@/components/logo'
 import { AppStoreBadge } from '@/components/app-store-badge'
+import { GooglePlayBadge } from '@/components/google-play-badge'
 import { footerNav, site } from '@/lib/site'
 
 export function SiteFooter() {
@@ -17,7 +18,7 @@ export function SiteFooter() {
             Your next chapter <em className="text-gold italic">starts here.</em>
           </p>
           <div className="flex flex-col items-start gap-4 md:items-end">
-            <AppStoreBadge tone="dark" />
+            <div className="flex flex-wrap gap-3 md:justify-end"><AppStoreBadge tone="dark" /><GooglePlayBadge tone="dark" /></div>
             <a
               href={`mailto:${site.email}`}
               className="link-underline inline-flex items-center gap-2 pb-0.5 text-sm text-ivory/70 transition-colors hover:text-ivory"
@@ -32,7 +33,7 @@ export function SiteFooter() {
           <div>
             <Logo inverted />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-ivory/60 text-pretty">
-              An upcoming iOS app to discover scholarships, organize university applications and connect with
+              An upcoming mobile app for iOS and Android to discover scholarships, organize university applications and connect with
               educational advisors.
             </p>
           </div>

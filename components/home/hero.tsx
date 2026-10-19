@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowDown } from 'lucide-react'
 import { AppStoreBadge } from '@/components/app-store-badge'
+import { GooglePlayBadge } from '@/components/google-play-badge'
 import { ButtonLink } from '@/components/button-link'
 
 const pillars = [
@@ -33,7 +34,7 @@ export function Hero() {
             style={{ animationDelay: '150ms' }}
           >
             <span aria-hidden className="size-1.5 rounded-full bg-gold" />
-            iOS app &middot; Coming soon
+            iOS &amp; Android &middot; Coming soon
           </p>
           <h1
             id="hero-title"
@@ -46,11 +47,12 @@ export function Hero() {
             className="animate-rise mt-7 max-w-xl text-lg leading-relaxed text-ivory/80 text-pretty md:text-xl"
             style={{ animationDelay: '500ms' }}
           >
-            EduT Scholarship is an iOS app designed to help you discover scholarships, keep university
+            EduT Scholarship is designed to help you discover scholarships, keep university
             applications in order, and connect with educational advisors who can guide the way.
           </p>
-          <div className="animate-rise mt-8" style={{ animationDelay: '600ms' }}>
+          <div className="animate-rise mt-8 flex flex-wrap gap-3" style={{ animationDelay: '600ms' }}>
             <AppStoreBadge tone="dark" />
+            <GooglePlayBadge tone="dark" />
           </div>
           <div
             className="animate-rise mt-8 flex flex-col gap-3 sm:flex-row sm:items-center"

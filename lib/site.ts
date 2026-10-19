@@ -4,7 +4,7 @@ export const site = {
   url: 'https://edut.timurhasanov.com',
   tagline: 'Your next chapter starts here',
   description:
-    'EduT Scholarship is an upcoming iOS app that helps students discover scholarships, manage university applications, and connect with educational advisors. Coming soon to the App Store.',
+    'EduT Scholarship is an upcoming mobile app for iOS and Android that helps students discover scholarships, manage university applications, and connect with educational advisors. Coming soon to the App Store and Google Play.',
   email: 'timur_dev@icloud.com',
   legalUpdated: 'October 19, 2026',
 } as const

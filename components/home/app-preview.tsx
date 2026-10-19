@@ -1,6 +1,7 @@
 import { Reveal } from '@/components/reveal'
 import { SectionHeading } from '@/components/section-heading'
 import { AppStoreBadge } from '@/components/app-store-badge'
+import { GooglePlayBadge } from '@/components/google-play-badge'
 import { AppShowcase } from '@/components/home/app-showcase'
 
 export function AppPreview() {
@@ -16,16 +17,16 @@ export function AppPreview() {
           <SectionHeading
             id="app-title"
             tone="dark"
-            eyebrow="Designed for iPhone"
+            eyebrow="Designed for mobile"
             title={
               <>
                 Your scholarship journey, <em className="italic text-gold">in your pocket</em>
               </>
             }
-            description="A focused, native iOS experience built around the moments that matter — searching, planning and asking for help."
+            description="An iPhone experience built around the moments that matter — with an Android version also planned."
           />
           <Reveal delay={150}>
-            <AppStoreBadge tone="dark" />
+            <div className="flex flex-wrap gap-3"><AppStoreBadge tone="dark" /><GooglePlayBadge tone="dark" /></div>
           </Reveal>
         </div>
 

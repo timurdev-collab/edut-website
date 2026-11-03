@@ -3,6 +3,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  async rewrites() {
+    return [{ source: '/privacy-policy', destination: '/privacy' }]
+  },
   async headers() {
     return [
       {

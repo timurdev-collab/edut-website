@@ -103,8 +103,8 @@ export default function PrivacyPage() {
         <h2>4. Service providers and other recipients</h2>
         <p>
           EduT uses <strong>Supabase</strong> to support authentication, database functions and
-          file storage. Advisor communication features integrate <strong>LiveKit</strong> for
-          real-time calls. The website runs on <strong>Vercel</strong> and includes Vercel Analytics.
+          file storage. Advisor messaging remains available, but in-app LiveKit video
+          calling has been discontinued. The website runs on <strong>Vercel</strong> and includes Vercel Analytics.
           The iOS app also interacts with <strong>Apple</strong> services for distribution and
           device-specific functionality, such as notifications where used.
         </p>

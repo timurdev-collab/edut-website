@@ -40,8 +40,7 @@ export default function PrivacyPage() {
           sign-in information, and optional contact details.</li>
           <li><strong>Academic and scholarship information:</strong> your nationality, country or
           residence details, education history, intended study level, destinations and subjects,
-          grades or GPA, language test scores, scholarship preferences, and optional family-income
-          information used for eligibility matching.</li>
+          grades or GPA, language test scores, scholarship preferences, information used for eligibility matching. EduT does not ask for family income.</li>
           <li><strong>Application activity:</strong> saved scholarships, application progress,
           checklists, notes and any documents you choose to upload.</li>
           <li><strong>Community activity:</strong> posts, messages, profile images or videos,
@@ -88,7 +87,7 @@ export default function PrivacyPage() {
 
         <h2>3. Visibility and sharing with other users</h2>
         <p>
-          Private academic details, family-income information, saved scholarships and private
+          Private academic details, saved scholarships and private
           application notes are intended for your account rather than public posting. Content
           you post in community areas may be visible to other users. Approved advisors'
           professional profiles and voluntarily supplied profile photos, qualifications and

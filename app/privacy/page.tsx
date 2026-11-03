@@ -40,7 +40,7 @@ export default function PrivacyPage() {
           sign-in information, and optional contact details.</li>
           <li><strong>Academic and scholarship information:</strong> your nationality, country or
           residence details, education history, intended study level, destinations and subjects,
-          grades or GPA, language test scores, scholarship preferences, information used for eligibility matching. EduT does not ask for family income.</li>
+          grades or GPA, language test scores, scholarship preferences, information used for eligibility matching. New app versions do not request family income, and the active service discards any family-income values submitted by older app versions.</li>
           <li><strong>Application activity:</strong> saved scholarships, application progress,
           checklists, notes and any documents you choose to upload.</li>
           <li><strong>Community activity:</strong> posts, messages, profile images or videos,

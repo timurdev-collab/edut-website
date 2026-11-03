@@ -6,7 +6,7 @@ export const site = {
   description:
     'EduT Scholarship is an upcoming mobile app for iOS and Android that helps students discover scholarships, manage university applications, and connect with educational advisors. Coming soon to the App Store and Google Play.',
   email: 'timur_dev@icloud.com',
-  legalUpdated: 'October 19, 2026',
+  legalUpdated: 'November 3, 2026',
 } as const
 
 export const mainNav = [
@@ -31,7 +31,7 @@ export const footerNav = {
     { href: '/contact', label: 'Contact' },
   ],
   Legal: [
-    { href: '/privacy', label: 'Privacy Policy' },
+    { href: '/privacy-policy', label: 'Privacy Policy' },
     { href: '/terms', label: 'Terms of Use' },
   ],
 } as const
